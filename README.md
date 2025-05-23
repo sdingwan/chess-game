@@ -170,25 +170,3 @@ Found a bug? Please open an issue with:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
-
-- Chess piece Unicode symbols for beautiful piece representation
-- Modern CSS techniques for responsive design
-- Vanilla JavaScript for performance and compatibility
-
-## 🔗 Links
-
-- **🎮 Live Demo**: [Play Now](https://sdingwan.github.io/chess-game)
-- **📖 Documentation**: [GitHub Wiki](https://github.com/sdingwan/chess-game/wiki)
-- **🐛 Bug Reports**: [Issues](https://github.com/sdingwan/chess-game/issues)
-- **💡 Feature Requests**: [Discussions](https://github.com/sdingwan/chess-game/discussions)
-
----
-
-<div align="center">
-
-**⭐ If you enjoyed this project, please give it a star! ⭐**
-
-Made with ❤️ by [Saurabh Dingwani](https://github.com/sdingwan)
-
-</div> 
