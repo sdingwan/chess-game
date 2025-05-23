@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>♛ Chess Game ♛</h1>
+            <div class="game-controls">
+                <button id="newGame" class="btn btn-primary">New Game</button>
+                <button id="undoMove" class="btn btn-secondary">Undo Move</button>
+            </div>
+        </header>
+        
+        <main class="game-area">
+            <div class="game-info">
+                <div class="player-info">
+                    <div class="current-player">
+                        <span id="currentPlayerText">White to move</span>
+                    </div>
+                    <div class="game-status">
+                        <span id="gameStatus">Game in progress</span>
+                    </div>
+                </div>
+                
+                <div class="captured-pieces">
+                    <div class="captured-white">
+                        <h3>Captured White</h3>
+                        <div id="capturedWhite" class="captured-list"></div>
+                    </div>
+                    <div class="captured-black">
+                        <h3>Captured Black</h3>
+                        <div id="capturedBlack" class="captured-list"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="chess-board-container">
+                <div class="board-coordinates">
+                    <div class="file-labels">
+                        <span>a</span><span>b</span><span>c</span><span>d</span>
+                        <span>e</span><span>f</span><span>g</span><span>h</span>
+                    </div>
+                </div>
+                <div class="board-with-ranks">
+                    <div class="rank-labels">
+                        <span>8</span><span>7</span><span>6</span><span>5</span>
+                        <span>4</span><span>3</span><span>2</span><span>1</span>
+                    </div>
+                    <div id="chessBoard" class="chess-board"></div>
+                </div>
+            </div>
+            
+            <div class="move-history">
+                <h3>Move History</h3>
+                <div id="moveHistory" class="move-list"></div>
+            </div>
+        </main>
+        
+        <div id="promotionModal" class="modal">
+            <div class="modal-content">
+                <h3>Promote Pawn</h3>
+                <p>Choose a piece to promote to:</p>
+                <div class="promotion-choices">
+                    <button class="promotion-btn" data-piece="queen">♕</button>
+                    <button class="promotion-btn" data-piece="rook">♖</button>
+                    <button class="promotion-btn" data-piece="bishop">♗</button>
+                    <button class="promotion-btn" data-piece="knight">♘</button>
+                </div>
+            </div>
+        </div>
+        
+        <div id="gameOverModal" class="modal">
+            <div class="modal-content">
+                <h3 id="gameOverTitle">Game Over</h3>
+                <p id="gameOverMessage"></p>
+                <button id="newGameFromModal" class="btn btn-primary">Play Again</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="chess.js"></script>
+</body>
+</html> 
