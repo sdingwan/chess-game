@@ -9,7 +9,7 @@
 
 **A fully functional, beautiful web-based chess game built with pure JavaScript**
 
-[🎮 Play Live Demo](https://yourusername.github.io/chess-game) | [📖 Documentation](#features) | [🚀 Quick Start](#quick-start)
+[🎮 Play Live Demo](https://sdingwan.github.io/chess-game) | [📖 Documentation](#features) | [🚀 Quick Start](#quick-start)
 
 </div>
 
@@ -54,7 +54,7 @@ The game features a beautiful, modern interface with:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/chess-game.git
+   git clone https://github.com/sdingwan/chess-game.git
    cd chess-game
    ```
 
@@ -178,10 +178,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🔗 Links
 
-- **🎮 Live Demo**: [Play Now](https://yourusername.github.io/chess-game)
-- **📖 Documentation**: [GitHub Wiki](https://github.com/yourusername/chess-game/wiki)
-- **🐛 Bug Reports**: [Issues](https://github.com/yourusername/chess-game/issues)
-- **💡 Feature Requests**: [Discussions](https://github.com/yourusername/chess-game/discussions)
+- **🎮 Live Demo**: [Play Now](https://sdingwan.github.io/chess-game)
+- **📖 Documentation**: [GitHub Wiki](https://github.com/sdingwan/chess-game/wiki)
+- **🐛 Bug Reports**: [Issues](https://github.com/sdingwan/chess-game/issues)
+- **💡 Feature Requests**: [Discussions](https://github.com/sdingwan/chess-game/discussions)
 
 ---
 
@@ -189,6 +189,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **⭐ If you enjoyed this project, please give it a star! ⭐**
 
-Made with ❤️ by [Your Name](https://github.com/yourusername)
+Made with ❤️ by [Saurabh Dingwani](https://github.com/sdingwan)
 
 </div> 
